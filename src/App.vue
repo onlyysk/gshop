@@ -8,7 +8,14 @@
 <script>
   import FootGuide from './components/FootGuide/FootGuide.vue'
 
+
   export default {
+
+    mounted () {
+      this.$store.dispatch('getAddress')
+      this.$store.dispatch('getUserInfo')
+    },
+
     components: {
       FootGuide
     }

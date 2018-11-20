@@ -37,7 +37,6 @@
       </ul>
     </section>
     <section class="profile_my_order border-1px">
-      <!-- 我的订单 -->
       <a href='javascript:' class="my_order">
             <span>
               <i class="iconfont icon-order-s"></i>
@@ -49,7 +48,6 @@
               </span>
         </div>
       </a>
-      <!-- 积分商城 -->
       <a href='javascript:' class="my_order">
             <span>
               <i class="iconfont icon-jifen"></i>
@@ -61,7 +59,6 @@
               </span>
         </div>
       </a>
-      <!-- 硅谷外卖会员卡 -->
       <a href="javascript:" class="my_order">
             <span>
               <i class="iconfont icon-vip"></i>
@@ -75,7 +72,6 @@
       </a>
     </section>
     <section class="profile_my_order border-1px">
-      <!-- 服务中心 -->
       <a href="javascript:" class="my_order">
             <span>
               <i class="iconfont icon-fuwu"></i>
