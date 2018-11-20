@@ -1,6 +1,4 @@
-/*
-路由器对象模块
- */
+
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
@@ -10,12 +8,11 @@ import Order from '../pages/Order/Order.vue'
 import Profile from '../pages/Profile/Profile.vue'
 import Login from '../pages/Login/Login.vue'
 
-// 声明使用vue插件
 Vue.use(VueRouter)
 
 export default new VueRouter({
   mode: 'history',
-  // 应用中所有路由
+
   routes: [
     {
       path: '/msite',
